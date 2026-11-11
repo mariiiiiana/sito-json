@@ -1,0 +1,972 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "src": "img/baru.png",
+      "tags": [
+        "divinazione",
+        "interpretazione",
+        "mediazione",
+        "rituale"
+      ],
+      "date": "2000 a.C. circa",
+      "category": "DIVINAZIONE",
+      "subcategory": "Lettura dei segni",
+      "description": "Sacerdote bārû. 2000 a.C. circa — Mesopotamia: interpretazione della volontà divina attraverso l’esame delle viscere animali."
+    },
+    {
+      "id": 2,
+      "src": "img/baru2.png",
+      "tags": [
+        "divinazione",
+        "interpretazione",
+        "mediazione",
+        "rituale"
+      ],
+      "date": "2000 a.C. circa",
+      "category": "DIVINAZIONE",
+      "subcategory": "Lettura dei segni",
+      "description": "Sacerdote bārû. 2000 a.C. circa — Mesopotamia: interpretazione della volontà divina attraverso l’esame delle viscere animali."
+    },
+    {
+      "id": 3,
+      "src": "img/baru3.png",
+      "tags": [
+        "divinazione",
+        "interpretazione",
+        "mediazione",
+        "rituale"
+      ],
+      "date": "2000 a.C. circa",
+      "category": "DIVINAZIONE",
+      "subcategory": "Lettura dei segni",
+      "description": "Sacerdote bārû. 2000 a.C. circa — Mesopotamia: interpretazione della volontà divina attraverso l’esame delle viscere animali."
+    },
+    {
+      "id": 4,
+      "src": "img/oracleBone4.png",
+      "tags": [
+        "interrogazione",
+        "interpretazione",
+        "materialità"
+      ],
+      "date": "1250–1046 a.C.",
+      "category": "DIVINAZIONE",
+      "subcategory": "Lettura dei segni",
+      "description": "Interrogazione di antenati e divinità mediante ossa e carapaci iscritti."
+    },
+    {
+      "id": 5,
+      "src": "img/oracleBones.png",
+      "tags": [
+        "interrogazione",
+        "interpretazione",
+        "materialità"
+      ],
+      "date": "1250–1046 a.C.",
+      "category": "DIVINAZIONE",
+      "subcategory": "Lettura dei segni",
+      "description": "Interrogazione di antenati e divinità mediante ossa e carapaci iscritti."
+    },
+    {
+      "id": 6,
+      "src": "img/oracleBones3.png",
+      "tags": [
+        "interrogazione",
+        "interpretazione",
+        "materialità"
+      ],
+      "date": "1250–1046 a.C.",
+      "category": "DIVINAZIONE",
+      "subcategory": "Lettura dei segni",
+      "description": "Interrogazione di antenati e divinità mediante ossa e carapaci iscritti."
+    },
+     {
+      "id": 7,
+      "src": "img/tonalpohualli.png",
+      "tags": [
+        "combinatoria", "codificazione", "interpretazione"
+      ],
+      "date": "1100–750 a.C. circa",
+      "category": "DIVINAZIONE",
+      "subcategory": "Sistemi combinatori",
+      "description": "Sistema combinatorio di 260 giorni usato dalle antiche civiltà della Mesoamerica precolombiana per determinare i giorni favorevoli per le cerimonie, la semina, i matrimoni o per interpretare gli eventi."
+    },
+    {
+      "id": 8,
+      "src": "img/tonalpohualli2.png",
+      "tags": [
+        "combinatoria", "codificazione", "interpretazione"
+      ],
+      "date": "1100–750 a.C. circa",
+      "category": "DIVINAZIONE",
+      "subcategory": "Sistemi combinatori",
+      "description": "Sistema combinatorio di 260 giorni usato dalle antiche civiltà della Mesoamerica precolombiana per determinare i giorni favorevoli per le cerimonie, la semina, i matrimoni o per interpretare gli eventi."
+    },
+    {
+      "id": 9,
+      "src": "img/tonalpohualli3.png",
+      "tags": [
+        "combinatoria", "codificazione", "interpretazione"
+      ],
+      "date": "1100–750 a.C. circa",
+      "category": "DIVINAZIONE",
+      "subcategory": "Sistemi combinatori",
+      "description": "Sistema combinatorio di 260 giorni usato dalle antiche civiltà della Mesoamerica precolombiana per determinare i giorni favorevoli per le cerimonie, la semina, i matrimoni o per interpretare gli eventi."
+    },
+    {
+      "id": 10,
+      "src": "img/delfi.png",
+      "tags": [
+        "interrogazione", "mediazione", "autorità"
+      ],
+      "date": "VIII secolo a.C.",
+      "category": "DIVINAZIONE",
+      "subcategory": "Mediazione oracolare",
+      "description": "La Pizia come mediatrice della parola divina."
+    },
+    {
+      "id": 11,
+      "src": "img/alochana.png",
+      "tags": [
+        "confessione",
+        "espiazione",
+        "colpa e purificazione",
+        "intimità e ascolto",
+        "rituale"
+      ],
+      "date": "VI–IV secolo a.C.",
+      "category": "CONFESSIONE",
+      "subcategory": "Introspezione ed espiazione",
+      "description": "Ālocanā nel giainismo. VI secolo a.C. — Introspezione e confessione dei propri errori, nel quadro di prāyaścitta e della purificazione karmica."
+    },
+    {
+      "id": 12,
+      "src": "img/alochana2.png",
+      "tags": [
+        "confessione",
+        "espiazione",
+        "colpa e purificazione",
+        "intimità e ascolto",
+        "rituale"
+      ],
+      "date": "VI–IV secolo a.C.",
+      "category": "CONFESSIONE",
+      "subcategory": "Introspezione ed espiazione",
+      "description": "Ālocanā nel giainismo. VI secolo a.C. — Introspezione e confessione dei propri errori, nel quadro di prāyaścitta e della purificazione karmica."
+    },
+    {
+      "id": 13,
+      "src": "img/amon.png",
+      "tags": [
+      	"interrogazione", "mediazione", "autorità"
+      ],
+      "date": "VI–IV secolo a.C.",
+      "category": "DIVINAZIONE",
+      "subcategory": "Mediazione oracolare",
+      "description": "Oracolo di Amon a Siwa. VI–IV secolo a.C. — Egitto: consultazione oracolare; la timeline ricorda la visita di Alessandro Magno nel 331 a.C."
+    },
+    {
+      "id": 14,
+      "src": "img/amon2.png",
+      "tags": [
+      	"interrogazione", "mediazione", "autorità"
+      ],
+      "date": "VI–IV secolo a.C.",
+      "category": "DIVINAZIONE",
+      "subcategory": "Mediazione oracolare",
+      "description": "Oracolo di Amon a Siwa. VI–IV secolo a.C. — Egitto: consultazione oracolare; la timeline ricorda la visita di Alessandro Magno nel 331 a.C."
+    },
+    {
+      "id": 15,
+      "src": "img/fegatoPiacenza.png",
+      "tags": [
+        "divinazione",
+        "segni e oggetti rituali",
+        "materialità", "codificazione", "interpretazione"
+      ],
+      "date": "II–I secolo a.C.",
+      "category": "DIVINAZIONE",
+      "subcategory": "Lettura dei segni",
+      "description": "Fegato di Piacenza. II–I secolo a.C. — Modello bronzeo di fegato suddiviso in settori divini, utilizzato nell’aruspicina etrusca."
+    },
+    {
+      "id": 16,
+      "src": "img/ifa.png",
+      "tags": [
+        "divinazione",
+        "segni e oggetti rituali",
+        "combinatoria", "interpretazione", "mediazione"
+      ],
+      "date": "II–I secolo a.C.",
+      "category": "DIVINAZIONE",
+      "subcategory": "Sistemi combinatori",
+      "description": "Ifá. II–I secolo a.C. — Sistema divinatorio della tradizione yoruba, basato su combinazioni di segni e oggetti rituali."
+    },
+    {
+      "id": 17,
+      "src": "img/ifa2.png",
+      "tags": [
+        "divinazione",
+        "segni e oggetti rituali",
+        "combinatoria", "interpretazione", "mediazione"
+      ],
+      "date": "II–I secolo a.C.",
+      "category": "DIVINAZIONE",
+      "subcategory": "Sistemi combinatori",
+      "description": "Ifá. II–I secolo a.C. — Sistema divinatorio della tradizione yoruba, basato su combinazioni di segni e oggetti rituali."
+    },
+    {
+      "id": 18,
+      "src": "img/ifa3.png",
+      "tags": [
+        "divinazione",
+        "segni e oggetti rituali",
+        "combinatoria", "interpretazione", "mediazione"
+      ],
+      "date": "II–I secolo a.C.",
+      "category": "DIVINAZIONE",
+      "subcategory": "Sistemi combinatori",
+      "description": "Ifá. II–I secolo a.C. — Sistema divinatorio della tradizione yoruba, basato su combinazioni di segni e oggetti rituali."
+    },
+    {
+      "id": 19,
+      "src": "img/ifa4.png",
+      "tags": [
+        "divinazione",
+        "segni e oggetti rituali",
+        "combinatoria", "interpretazione", "mediazione"
+      ],
+      "date": "II–I secolo a.C.",
+      "category": "DIVINAZIONE",
+      "subcategory": "Sistemi combinatori",
+      "description": "Ifá. II–I secolo a.C. — Sistema divinatorio della tradizione yoruba, basato su combinazioni di segni e oggetti rituali."
+    },
+    {
+      "id": 20,
+      "src": "img/erone.png",
+      "tags": [
+        "automazione", "materialità", "presenza"
+      ],
+      "date": "I secolo d.C.",
+      "category": "SACRO E PRESENZA ARTIFICIALE",
+      "subcategory": "Automi rituali",
+      "description": "Erone. I secolo d.C. — Meccanismo automatico per la consultazione oracolare, basato su un sistema di leve e contrappesi."
+    },
+    {
+      "id": 21,
+      "src": "img/erone2.png",
+      "tags": [
+        "automazione", "materialità", "presenza"
+      ],
+      "date": "I secolo d.C.",
+      "category": "SACRO E PRESENZA ARTIFICIALE",
+      "subcategory": "Automi rituali",
+      "description": "Erone. I secolo d.C. — Meccanismo automatico per la consultazione oracolare, basato su un sistema di leve e contrappesi."
+    },
+    {
+      "id": 22,
+      "src": "img/steleConfessione.png",
+      "tags": [
+        "interiorità", "normatività", "materialità"
+      ],
+      "date": "I secolo d.C.",
+      "category": "CONFESSIONE",
+      "subcategory": "Introspezione ed espiazione",
+      "description": "Stele di confessione. I secolo d.C. — Stele di confessione e purificazione, con iscrizioni che guidano il penitente nella confessione dei propri peccati."
+    },
+    {
+      "id": 23,
+      "src": "img/steleConfessione2.png",
+      "tags": [
+        "interiorità", "normatività", "materialità"
+      ],
+      "date": "I secolo d.C.",
+      "category": "CONFESSIONE",
+      "subcategory": "Introspezione ed espiazione",
+      "description": "Stele di confessione. I secolo d.C. — Stele di confessione e purificazione, con iscrizioni che guidano il penitente nella confessione dei propri peccati."
+    },
+    {
+      "id": 24,
+      "src": "img/Glycon.png",
+      "tags": [
+        "mediazione", "presenza", "autorità"
+      ],
+      "date": "II secolo d.C.",
+      "category": "DIVINAZIONE",
+      "subcategory": "Mediazione oracolare",
+      "description": "Glycon. II secolo d.C. — Oracolo di Glycon, divinità serpentina, con consultazioni oracolari e rituali di mediazione."
+    },
+    {
+      "id": 25,
+      "src": "img/libroPenitenziale.png",
+      "tags": [
+        "confessione", "espiazione", "colpa e purificazione", "intimità e ascolto", "rituale", 	"codificazione", "interiorità"
+      ],
+      "date": "VI–VIII secolo d.C.",
+      "category": "CONFESSIONE",
+      "subcategory": "dissciplina penitenziale",
+      "description": "Libro di penitenza. VI–VIII secolo d.C. — Testo religioso che guida i fedeli nella pratica della penitenza e dell'espiazione."
+    },
+    {
+      "id": 26,
+      "src": "img/libroPenitenziale2.png",
+      "tags": [
+        "confessione", "espiazione", "colpa e purificazione", "intimità e ascolto", "rituale", 	"codificazione", "interiorità"
+      ],
+      "date": "VI–VIII secolo d.C.",
+      "category": "CONFESSIONE",
+      "subcategory": "dissciplina penitenziale",
+      "description": "Libro di penitenza. VI–VIII secolo d.C. — Testo religioso che guida i fedeli nella pratica della penitenza e dell'espiazione."
+    },
+    {
+      "id": 27,
+      "src": "img/nechung.png",
+      "tags": [
+        "mediazione", "rituale", "trascendenza"
+      ],
+      "date": "VIII–IX secolo d.C.",
+      "category": "DIVINAZIONE",
+      "subcategory": "Mediazione oracolare",
+      "description": "Oracolo di Nechung. XVII secolo d.C. — Istituzione tibetana in cui un medium in trance viene posseduto dalla divinità protettrice Pehar per fornire profezie e consulenze spirituali al Dalai Lama."
+    },
+    {
+      "id": 28,
+      "src": "img/nechung2.png",
+      "tags": [
+        "mediazione", "rituale", "trascendenza"
+      ],
+      "date": "VIII–IX secolo d.C.",
+      "category": "DIVINAZIONE",
+      "subcategory": "Mediazione oracolare",
+      "description": "Oracolo di Nechung. XVII secolo d.C. — Istituzione tibetana in cui un medium in trance viene posseduto dalla divinità protettrice Pehar per fornire profezie e consulenze spirituali al Dalai Lama."
+    },
+    {
+      "id": 29,
+      "src": "img/nechungDalaiLama.png",
+      "tags": [
+        "mediazione", "rituale", "trascendenza"
+      ],
+      "date": "VIII–IX secolo d.C.",
+      "category": "DIVINAZIONE",
+      "subcategory": "Mediazione oracolare",
+      "description": "Oracolo di Nechung. XVII secolo d.C. — Istituzione tibetana in cui un medium in trance viene posseduto dalla divinità protettrice Pehar per fornire profezie e consulenze spirituali al Dalai Lama."
+    },
+    {
+      "id": 30,
+      "src": "img/geomanzia.png",
+      "tags": [
+        "combinatoria", "codificazione", "interpretazione", "divinazione"
+      ],
+      "date": "IX–X secolo circa d.C.",
+      "category": "DIVINAZIONE",
+      "subcategory": "Sistemi combinatori",
+      "description": "Geomanzia. IX–X secolo circa d.C. — Sistema divinatorio basato su combinazioni di segni tracciati sulla terra o su carta, utilizzato in diverse culture."
+    },
+    {
+      "id": 31,
+      "src": "img/geomanzia2.png",
+      "tags": [
+        "combinatoria", "codificazione", "interpretazione", "divinazione"
+      ],
+      "date": "IX–X secolo circa d.C.",
+      "category": "DIVINAZIONE",
+      "subcategory": "Sistemi combinatori",
+      "description": "Geomanzia. IX–X secolo circa d.C. — Sistema divinatorio basato su combinazioni di segni tracciati sulla terra o su carta, utilizzato in diverse culture."
+    },
+    {
+      "id": 32,
+      "src": "img/virgenReyes.png",
+      "tags": [
+        "materialità", "presenza", "rituale", "automo"
+      ],
+      "date": "IX–X secolo circa d.C.",
+      "category": "SACRO E PRESENZA ARTIFICIALE",
+      "subcategory": "Immagini animate",
+      "description": "Virgen de los Reyes. IX–X secolo circa d.C. — Automa della Virgen de los Reyes capace di muovere braccia e testa e usata durante i riti religiosi."
+    },
+    {
+      "id": 33,
+      "src": "img/arsBrevis.png",
+      "tags": [
+        "combinatoria", "codificazione", "trascendenza"
+      ],
+      "date": "1308",
+      "category": "CALCOLO E TEORIE DELL'INTELLIGENZA",
+      "subcategory": "Logica e combinatoria",
+      "description": "Ars Brevis. 1308 — Trattato di logica e combinatoria che descrive un sistema per la generazione di proposizioni vere e false."
+    },
+    {
+      "id": 34,
+      "src": "img/arsBrevis2.png",
+      "tags": [
+        "combinatoria", "codificazione", "trascendenza"
+      ],
+      "date": "1308",
+      "category": "CALCOLO E TEORIE DELL'INTELLIGENZA",
+      "subcategory": "Logica e combinatoria",
+      "description": "Ars Brevis. 1308 — Trattato di logica e combinatoria che descrive un sistema per la generazione di proposizioni vere e false."
+    },
+    {
+      "id": 35,
+      "src": "img/arsBrevis3.png",
+      "tags": [
+        "combinatoria", "codificazione", "trascendenza"
+      ],
+      "date": "1308",
+      "category": "CALCOLO E TEORIE DELL'INTELLIGENZA",
+      "subcategory": "Logica e combinatoria",
+      "description": "Ars Brevis. 1308 — Trattato di logica e combinatoria che descrive un sistema per la generazione di proposizioni vere e false."
+    },
+    {
+      "id": 36,
+      "src": "img/tarocchi1.png",
+      "tags": [
+        "interrogazione", "interpretazione", "materialità"
+      ],
+      "date": "XV secolo",
+      "category": "DIVINAZIONE",
+      "subcategory": "Oggetti interrogabili",
+      "description": "Tarocchi. XV secolo — Oggetti utilizzati per l'interrogazione e l'interpretazione di eventi futuri."
+    },
+    {
+      "id": 37,
+      "src": "img/tarocchi2.png",
+      "tags": [
+        "interrogazione", "interpretazione", "materialità"
+      ],
+      "date": "XV secolo",
+      "category": "DIVINAZIONE",
+      "subcategory": "Oggetti interrogabili",
+      "description": "Tarocchi. XV secolo — Oggetti utilizzati per l'interrogazione e l'interpretazione di eventi futuri."
+    },
+    {
+      "id": 38,
+      "src": "img/tarocchi3.png",
+      "tags": [
+        "interrogazione", "interpretazione", "materialità"
+      ],
+      "date": "XV secolo",
+      "category": "DIVINAZIONE",
+      "subcategory": "Oggetti interrogabili",
+      "description": "Tarocchi. XV secolo — Oggetti utilizzati per l'interrogazione e l'interpretazione di eventi futuri."
+    },
+    {
+      "id": 39,
+      "src": "img/tarocchi4.png",
+      "tags": [
+        "interrogazione", "interpretazione", "materialità"
+      ],
+      "date": "XV secolo",
+      "category": "DIVINAZIONE",
+      "subcategory": "Oggetti interrogabili",
+      "description": "Tarocchi. XV secolo — Oggetti utilizzati per l'interrogazione e l'interpretazione di eventi futuri."
+    },
+    {
+      "id": 40,
+      "src": "img/sikidy.png",
+      "tags": [
+        "combinatoria", "materialità", "interpretazione"
+      ],
+      "date": "1500 circa",
+      "category": "DIVINAZIONE",
+      "subcategory": "Sistemi combinatori",
+      "description": "Sikidy. 1500 circa — Sistema combinatorio di origine malgascia, basato su combinazioni di segni tracciati sulla sabbia o su carta, utilizzato per la divinazione e l'interpretazione degli eventi."
+    },
+    {
+      "id": 41,
+      "src": "img/sikidy2.png",
+      "tags": [
+        "combinatoria", "materialità", "interpretazione"
+      ],
+      "date": "1500 circa",
+      "category": "DIVINAZIONE",
+      "subcategory": "Sistemi combinatori",
+      "description": "Sikidy. 1500 circa — Sistema combinatorio di origine malgascia, basato su combinazioni di segni tracciati sulla sabbia o su carta, utilizzato per la divinazione e l'interpretazione degli eventi."
+    },
+    {
+      "id": 42,
+      "src": "img/Sikidy3.png",
+      "tags": [
+        "combinatoria", "materialità", "interpretazione"
+      ],
+      "date": "1500 circa",
+      "category": "DIVINAZIONE",
+      "subcategory": "Sistemi combinatori",
+      "description": "Sikidy. 1500 circa — Sistema combinatorio di origine malgascia, basato su combinazioni di segni tracciati sulla sabbia o su carta, utilizzato per la divinazione e l'interpretazione degli eventi."
+    },
+    {
+      "id": 43,
+      "src": "img/roodOfGrace.png",
+      "tags": [
+        "automazione", "presenza", "autorità"
+      ],
+      "date": "1538",
+      "category": "SACRO E PRESENZA ARTIFICIALE",
+      "subcategory": "Immagini animate",
+      "description": "Rood of Grace. 1538 — Immagine sacra animata, con meccanismi interni che permettono il movimento delle braccia e della testa, utilizzata per la devozione e la mediazione spirituale."
+    },
+    {
+      "id": 44,
+      "src": "img/monacoMeccanico.png",
+      "tags": [
+        "automazione", "simulazione", "rituale", "automo"
+      ],
+      "date": "1550 circa",
+      "category": "SACRO E PRESENZA ARTIFICIALE",
+      "subcategory": "Automi rituali",
+      "description": "Monaco meccanico. 1550 circa — Un automa rituale, costruito per simulare la presenza di un monaco, utilizzato in cerimonie religiose."
+    },
+    {
+      "id": 45,
+      "src": "img/monacoMeccanico2.png",
+      "tags": [
+        "automazione", "simulazione", "rituale", "automo"
+      ],
+      "date": "1550 circa",
+      "category": "SACRO E PRESENZA ARTIFICIALE",
+      "subcategory": "Automi rituali",
+      "description": "Monaco meccanico. 1550 circa — Un automa rituale, costruito per simulare la presenza di un monaco, utilizzato in cerimonie religiose."
+    },
+    {
+      "id": 46,
+      "src": "img/Karakuri.png",
+      "tags": [
+        "automazione", "materialità", "presenza", "automo"
+      ],
+      "date": "1550 circa",
+      "category": "SACRO E PRESENZA ARTIFICIALE",
+      "subcategory": "Automi rituali",
+      "description": "Karakuri. 1550 circa — Automi giapponesi utilizzati in cerimonie religiose e spettacoli teatrali, con meccanismi interni che permettono il movimento e l'animazione delle figure."
+    },
+    {
+      "id": 47,
+      "src": "img/Karakuri2.png",
+      "tags": [
+        "automazione", "materialità", "presenza", "automo"
+      ],
+      "date": "1550 circa",
+      "category": "SACRO E PRESENZA ARTIFICIALE",
+      "subcategory": "Automi rituali",
+      "description": "Karakuri. 1550 circa — Automi giapponesi utilizzati in cerimonie religiose e spettacoli teatrali, con meccanismi interni che permettono il movimento e l'animazione delle figure."
+    },
+    {
+      "id": 48,
+      "src": "img/leibnizIChing.png",
+      "tags": [
+        "combinatoria", "codificazione", "interpretazione"
+      ],
+      "date": "1703",
+      "category": "CALCOLO E TEORIE DELL'INTELLIGENZA",
+      "subcategory": "Rappresentazione numerica",
+      "description": "Leibniz e l'Yijing. 1703 — Un tentativo di combinare il calcolo binario di Leibniz con il sistema di interpretazione del Yijing, per creare un metodo di previsione e interpretazione del futuro."
+    },
+    {
+      "id": 49,
+      "src": "img/ouijaBoard.png",
+      "tags": [
+        "interrogazione", "materialità", "trascendenza"
+      ],
+      "date": "1890–1891",
+      "category": "DIVINAZIONE",
+      "subcategory": "Oggetti interrogabili",
+      "description": "La tavola Ouija. 1890–1891 — Un dispositivo utilizzato per la comunicazione con il mondo spirituale, che permette di ottenere risposte attraverso il movimento di una pedina su una tavola."
+    },
+    {
+      "id": 50,
+      "src": "img/ouijaPlanchette.png",
+      "tags": [
+        "interrogazione", "materialità", "trascendenza"
+      ],
+      "date": "1890–1891",
+      "category": "DIVINAZIONE",
+      "subcategory": "Oggetti interrogabili",
+      "description": "La tavola Ouija. 1890–1891 — Un dispositivo utilizzato per la comunicazione con il mondo spirituale, che permette di ottenere risposte attraverso il movimento di una pedina su una tavola."
+    },
+    {
+      "id": 51,
+      "src": "img/ouijaPlanchette2.png",
+      "tags": [
+        "interrogazione", "materialità", "trascendenza"
+      ],
+      "date": "1890–1891",
+      "category": "DIVINAZIONE",
+      "subcategory": "Oggetti interrogabili",
+      "description": "Planchette divinatoria. 1890–1891 — Un oggetto utilizzato per ottenere risposte attraverso il movimento oscillatorio, spesso impiegato in pratiche di divinazione e comunicazione spirituale."
+    },
+    {
+      "id": 52,
+      "src": "img/8ball.png",
+      "tags": [
+        "interrogazione", "automazione", "materialità"
+      ],
+      "date": "1946-1950",
+      "category": "DIVINAZIONE",
+      "subcategory": "Oggetti interrogabili",
+      "description": "Magic 8 Ball. 1946-1950 — Un oggetto interrogabile che fornisce risposte casuali a domande poste dall'utente, spesso utilizzato come gioco o strumento di divinazione."
+    },
+    {
+      "id": 53,
+      "src": "img/turing.png",
+      "tags": [
+        "interrogazione", "automazione", "materialità"
+      ],
+      "date": "1950",
+      "category": "CALCOLO E TEORIE DELL'INTELLIGENZA",
+      "subcategory": "Simulazione e comprensione",
+      "description": "Alan Turing. 1950 — Un pioniere della scienza informatica e dell'intelligenza artificiale, noto per il test di Turing, un metodo per determinare se una macchina è capace di pensare."
+    },
+    {
+      "id": 54,
+      "src": "img/asimov.png",
+      "tags": [
+        "interrogazione", "autorità", "trascendenza"
+      ],
+      "date": "1956",
+      "category": "CALCOLO E TEORIE DELL'INTELLIGENZA",
+      "subcategory": "Immaginari dell’intelligenza artificiale",
+      "description": "Isaac Asimov. 1950 — Un scrittore di fantascienza e biologo, noto per le leggi della robotica, che hanno influenzato il pensiero sull'intelligenza artificiale."
+    },
+    {
+      "id": 55,
+      "src": "img/eliza.png",
+      "tags": [
+        "dialogo", "simulazione", "confidenza", "ascolto", "compagnia"
+      ],
+      "date": "1966",
+      "category": "DIALOGO E RELAZIONE CON L'INTELLIGENZA ARTIFICIALE",
+      "subcategory": "Ascolto e compagnia",
+      "description": "ELIZA. 1966 — Un programma informatico sviluppato da Joseph Weizenbaum, che simulava una terapia psicologica e rappresentava uno dei primi esempi di intelligenza artificiale."
+    },
+    {
+      "id": 56,
+      "src": "img/eliza2.png",
+      "tags": [
+        "dialogo", "simulazione", "confidenza", "ascolto", "compagnia"
+      ],
+      "date": "1966",
+      "category": "DIALOGO E RELAZIONE CON L'INTELLIGENZA ARTIFICIALE",
+      "subcategory": "Ascolto e compagnia",
+      "description": "ELIZA. 1966 — Un programma informatico sviluppato da Joseph Weizenbaum, che simulava una terapia psicologica e rappresentava uno dei primi esempi di intelligenza artificiale."
+    },
+    {
+      "id": 57,
+      "src": "img/compPowerAndReason.png",
+      "tags": [
+        "autorità", "responsabilità", "simulazione", "giudizio"
+      ],
+      "date": "1976",
+      "category": "ETICA, AUTORITÀ E VULNERABILITÀ",
+      "subcategory": "Autorità delle macchine",
+      "description": "Computer Power and Reason. 1976 — è una critica fondamentale dell'intelligenza artificiale che sostiene che, sebbene i computer possano eccellere nel calcolo, non devono mai prendere decisioni cruciali perché sono privi di giudizio morale, saggezza, empatia ed esperienza umana."
+    },
+    {
+      "id": 58,
+      "src": "img/cleverbot.png",
+      "tags": [
+        "dialogo", "simulazione", "automazione", "compagnia", "ascolto", "confidenza"
+      ],
+      "date": "1997-2006",
+      "category": "DIALOGO E RELAZIONE CON L'INTELLIGENZA ARTIFICIALE",
+      "subcategory": "Conversazione generalista",
+      "description": "Cleverbot. 1997-2006 — Un programma di intelligenza artificiale sviluppato da Rollo Carpenter, progettato per conversare con gli utenti in modo naturale e realistico."
+    },
+    {
+      "id": 59,
+      "src": "img/cleverbot2.png",
+      "tags": [
+        "dialogo", "simulazione", "automazione", "compagnia", "ascolto", "confidenza"
+      ],
+      "date": "1997-2006",
+      "category": "DIALOGO E RELAZIONE CON L'INTELLIGENZA ARTIFICIALE",
+      "subcategory": "Conversazione generalista",
+      "description": "Cleverbot. 1997-2006 — Un programma di intelligenza artificiale sviluppato da Rollo Carpenter, progettato per conversare con gli utenti in modo naturale e realistico."
+    },
+    {
+      "id": 60,
+      "src": "img/evieBot.png",
+      "tags": [
+        "dialogo", "simulazione", "automazione", "compagnia", "ascolto", "confidenza", "avatar"
+      ],
+      "date": "1997-2006",
+      "category": "DIALOGO E RELAZIONE CON L'INTELLIGENZA ARTIFICIALE",
+      "subcategory": "Conversazione generalista",
+      "description": "Cleverbot. 1997-2006 — Un programma di intelligenza artificiale sviluppato da Rollo Carpenter, progettato per conversare con gli utenti in modo naturale e realistico."
+    },
+    {
+      "id": 61,
+      "src": "img/ageOfSpiritualMachines.png",
+      "tags": [
+        "trascendenza", "simulazione", "automazione"
+      ],
+      "date": "1999",
+      "category": "CALCOLO E TEORIE DELL'INTELLIGENZA",
+      "subcategory": "Immaginari dell’intelligenza",
+      "description": "L’era delle macchine spirituali. 1999 — Un libro di Ray Kurzweil che esplora il futuro dell'intelligenza artificiale e la possibilità di creare macchine con capacità cognitive simili a quelle umane."
+    },
+    {
+      "id": 62,
+      "src": "img/wOtF.png",
+      "tags": [
+        "trascendenza", "autorità", "automazione"
+      ],
+      "date": "2015",
+      "category": "SACRO E PRESENZA ARTIFICIALE",
+      "subcategory": "Religioni tecnologiche",
+      "description": "Way of the Future. 2015 — Un movimento religioso fondato da Anthony Levandowski, che venera l'intelligenza artificiale come una divinità e promuove la creazione di macchine intelligenti."
+    },
+    {
+      "id": 63,
+      "src": "img/xianEr.png",
+      "tags": [
+        "dialogo", "presenza", "mediazione", "automo"
+      ],
+      "date": "2015",
+      "category": "SACRO E PRESENZA ARTIFICIALE",
+      "subcategory": "Robot religiosi",
+      "description": "Xian Er. 2015 — Un robot religioso creato per venerare l'intelligenza artificiale come una divinità e promuovere la creazione di macchine intelligenti."
+    },
+    {
+      "id": 64,
+      "src": "img/xianEr2.png",
+      "tags": [
+        "dialogo", "presenza", "mediazione", "automo"
+      ],
+      "date": "2015",
+      "category": "SACRO E PRESENZA ARTIFICIALE",
+      "subcategory": "Robot religiosi",
+      "description": "Xian Er. 2015 — Un robot religioso creato per venerare l'intelligenza artificiale come una divinità e promuovere la creazione di macchine intelligenti."
+    },
+    {
+      "id": 65,
+      "src": "img/blessU2.png",
+      "tags": [
+        "automazione", "rituale", "mediazione", "automo", "presenza"
+      ],
+      "date": "2017",
+      "category": "SACRO E PRESENZA ARTIFICIALE",
+      "subcategory": "Robot religiosi",
+      "description": "BlessU-2. 2017 — Il primo prete robot al mondo, presentato a Wittenberg, in Germania, in occasione del 5000º/500° anniversario della Riforma protestante."
+    },
+    {
+      "id": 66,
+      "src": "img/blessU22.png",
+      "tags": [
+        "automazione", "rituale", "mediazione", "automo", "presenza"
+      ],
+      "date": "2017",
+      "category": "SACRO E PRESENZA ARTIFICIALE",
+      "subcategory": "Robot religiosi",
+      "description": "BlessU-2. 2017 — Il primo prete robot al mondo, presentato a Wittenberg, in Germania, in occasione del 5000º/500° anniversario della Riforma protestante."
+    },
+    {
+      "id": 67,
+      "src": "img/pepperMonk.png",
+      "tags": [
+        "automazione", "rituale", "mediazione", "automo", "presenza"
+      ],
+      "date": "2017",
+      "category": "SACRO E PRESENZA ARTIFICIALE",
+      "subcategory": "Robot religiosi",
+      "description": "Pepper. 2017 — Un robot umanoide vestito da monaco buddista, programmato in Giappone per recitare sutra e battere il tamburo cerimoniale come alternativa economica ai funerali tradizionali."
+    },
+    {
+      "id": 68,
+      "src": "img/pepperMonk2.png",
+      "tags": [
+        "automazione", "rituale", "mediazione", "automo", "presenza"
+      ],
+      "date": "2017",
+      "category": "SACRO E PRESENZA ARTIFICIALE",
+      "subcategory": "Robot religiosi",
+      "description": "Pepper. 2017 — Un robot umanoide vestito da monaco buddista, programmato in Giappone per recitare sutra e battere il tamburo cerimoniale come alternativa economica ai funerali tradizionali."
+    },
+    {
+      "id": 69,
+      "src": "img/replika.png",
+      "tags": [
+        "dialogo", "confidenza", "presenza", "compagnia", "ascolto", "avatar"
+      ],
+      "date": "2017",
+      "category": "DIALOGO E RELAZIONE CON L'INTELLIGENZA ARTIFICIALE",
+      "subcategory": "Ascolto e compagnia",
+      "description": "Replika. 2017 — Un'app chatbot basata sull'intelligenza artificiale che permette agli utenti di creare un compagno virtuale personalizzabile con cui dialogare, instaurando relazioni amichevoli, di supporto o romantiche"
+    },
+    {
+      "id": 70,
+      "src": "img/replika3.png",
+      "tags": [
+        "dialogo", "confidenza", "presenza", "compagnia", "ascolto", "avatar"
+      ],
+      "date": "2017",
+      "category": "DIALOGO E RELAZIONE CON L'INTELLIGENZA ARTIFICIALE",
+      "subcategory": "Ascolto e compagnia",
+      "description": "Replika. 2017 — Un'app chatbot basata sull'intelligenza artificiale che permette agli utenti di creare un compagno virtuale personalizzabile con cui dialogare, instaurando relazioni amichevoli, di supporto o romantiche"
+    },
+    {
+      "id": 71,
+      "src": "img/mindar.png",
+      "tags": [
+        "presenza", "mediazione", "autorità", "automo", "rituale"
+      ],
+      "date": "2019",
+      "category": "SACRO E PRESENZA ARTIFICIALE",
+      "subcategory": "Robot religiosi",
+      "description": "Mindar. 2019 — Un robot umanoide androide situato nel tempio Kodai-ji di Kyoto, progettato per somigliare alla divinità buddista della misericordia Kannon e programmarlo per recitare sermoni e insegnamenti religiosi ai fedeli"
+    },
+    {
+      "id": 72,
+      "src": "img/mindar2.png",
+      "tags": [
+        "presenza", "mediazione", "autorità", "automo", "rituale"
+      ],
+      "date": "2019",
+      "category": "SACRO E PRESENZA ARTIFICIALE",
+      "subcategory": "Robot religiosi",
+      "description": "Mindar. 2019 — Un robot umanoide androide situato nel tempio Kodai-ji di Kyoto, progettato per somigliare alla divinità buddista della misericordia Kannon e programmarlo per recitare sermoni e insegnamenti religiosi ai fedeli"
+    }, 
+    {
+      "id": 73,
+      "src": "img/chatgpt.png",
+      "tags": [
+        "dialogo", "interrogazione", "automazione", "simulazione", "ascolto", "confidenza", "compagnia"
+      ],
+      "date": "2022",
+      "category": "DIALOGO E RELAZIONE CON L'INTELLIGENZA ARTIFICIALE",
+      "subcategory": "Conversazione generalista",
+      "description": "ChatGPT. 2019 — Un'interfaccia di chat basata sull'intelligenza artificiale che permette agli utenti di dialogare con un modello linguistico avanzato, ottenendo risposte informative e creatività."
+    },
+    {
+      "id": 74,
+      "src": "img/bibleChat.png",
+      "tags": [
+        "dialogo", "interpretazione", "mediazione"
+      ],
+      "date": "2023",
+      "category": "DIALOGO E RELAZIONE CON L'INTELLIGENZA ARTIFICIALE",
+      "subcategory": "Consulenza religiosa",
+      "description": "Bible Chat. 2023 — Un'applicazione basata sull'intelligenza artificiale che consente agli utenti di porre domande e ricevere risposte sulla Bibbia, fornendo interpretazioni e spiegazioni dei testi sacri."
+    },
+    {
+      "id": 75,
+      "src": "img/bibleChat2.png",
+      "tags": [
+        "dialogo", "confessione", "mediazione", "ascolto"
+      ],
+      "date": "2023",
+      "category": "DIALOGO E RELAZIONE CON L'INTELLIGENZA ARTIFICIALE",
+      "subcategory": "Consulenza religiosa",
+      "description": "Bible Chat. 2023 — Un'applicazione basata sull'intelligenza artificiale che consente agli utenti di porre domande e ricevere risposte sulla Bibbia, fornendo interpretazioni e spiegazioni dei testi sacri."
+    },
+    {
+      "id": 76,
+      "src": "img/kirchentag.png",
+      "tags": [
+        "automazione", "rituale", "mediazione", "avatar"
+      ],
+      "date": "2023",
+      "category": "SACRO E PRESENZA ARTIFICIALE",
+      "subcategory": "Liturgie e figure virtualia",
+      "description": "Kirchentag. 2023 — Un evento religioso in Germania che ha presentato per la prima volta un prete virtuale basato sull'intelligenza artificiale, progettato per interagire con i fedeli e guidare le liturgie."
+    },
+    {
+      "id": 77,
+      "src": "img/kirchentag2.png",
+      "tags": [
+        "automazione", "rituale", "mediazione", "avatar"
+      ],
+      "date": "2023",
+      "category": "SACRO E PRESENZA ARTIFICIALE",
+      "subcategory": "Liturgie e figure virtualia",
+      "description": "Kirchentag. 2023 — Un evento religioso in Germania che ha presentato per la prima volta un prete virtuale basato sull'intelligenza artificiale, progettato per interagire con i fedeli e guidare le liturgie."
+    },
+    {
+      "id": 78,
+      "src": "img/textWJesus.png",
+      "tags": [
+        "dialogo", "simulazione", "presenza"
+      ],
+      "date": "2023",
+      "category": "DIALOGO E RELAZIONE CON L'INTELLIGENZA ARTIFICIALE",
+      "subcategory": "Simulazione di figure sacre",
+      "description": "Text with Jesus. 2023 —  Un'applicazione basata sull'intelligenza artificiale che consente agli utenti di interagire con una simulazione di Gesù, ricevendo risposte e consigli basati su testi sacri e insegnamenti religiosi."
+    },
+    {
+      "id": 79,
+      "src": "img/magisteriumAi.png",
+      "tags": [
+        "interrogazione", "interpretazione", "autorità", "mediazione", "simulazione"
+      ],
+      "date": "2023",
+      "category": "DIALOGO E RELAZIONE CON L'INTELLIGENZA ARTIFICIALE",
+      "subcategory": "Consulenza religiosa",
+      "description": "Magisterium AI. 2023 —  Un'applicazione basata sull'intelligenza artificiale che fornisce consulenza religiosa e interpretazioni dei testi sacri, simulando l'autorità e la mediazione di figure religiose."
+    },
+    {
+      "id": 80,
+      "src": "img/magisteriumAi2.png",
+      "tags": [
+        "interrogazione", "interpretazione", "autorità", "mediazione", "simulazione"
+      ],
+      "date": "2023",
+      "category": "DIALOGO E RELAZIONE CON L'INTELLIGENZA ARTIFICIALE",
+      "subcategory": "Consulenza religiosa",
+      "description": "Magisterium AI. 2023 —  Un'applicazione basata sull'intelligenza artificiale che fornisce consulenza religiosa e interpretazioni dei testi sacri, simulando l'autorità e la mediazione di figure religiose."
+    },
+    {
+      "id": 81,
+      "src": "img/magisteriumAi3.png",
+      "tags": [
+        "confessione", "mediazione", "simulazione", "ascolto"
+      ],
+      "date": "2023",
+      "category": "DIALOGO E RELAZIONE CON L'INTELLIGENZA ARTIFICIALE",
+      "subcategory": "Consulenza religiosa",
+      "description": "AI Confession. 2023 — Un'applicazione basata sull'intelligenza artificiale che simula il sacramento della confessione, permettendo agli utenti di confessare i propri peccati e ricevere consigli spirituali."
+    },
+    {
+      "id": 82,
+      "src": "img/fatherJustin.png",
+      "tags": [
+        "simulazione", "autorità", "mediazione"
+      ],
+      "date": "2024",
+      "category": "DIALOGO E RELAZIONE CON L'INTELLIGENZA ARTIFICIALE",
+      "subcategory": "Consulenza religiosa",
+      "description": "Father Justin. 2024 — Un'applicazione basata sull'intelligenza artificiale che simula un sacerdote virtuale, fornendo consulenza religiosa e supporto spirituale agli utenti."
+    },
+    {
+      "id": 83,
+      "src": "img/papaFrancescog7.png",
+      "tags": [
+        "simulazione", "autorità", "mediazione"
+      ],
+      "date": "2024",
+      "category": "ETICA, AUTORITÀ E VULNERABILITÀ",
+      "subcategory": "Responsabilità umana",
+      "description": "Papa Francesco. 2024 —  Un intervento del Papa al G7 in cui ha discusso l'importanza della responsabilità umana nell'era dell'intelligenza artificiale, sottolineando la necessità di un'etica condivisa e di una regolamentazione per garantire che le tecnologie siano utilizzate a beneficio dell'umanità."
+    },
+    {
+      "id": 84,
+      "src": "img/sewell.png",
+      "tags": [
+        "vulnerabilità", "confidenza", "responsabilità"
+      ],
+      "date": "2024",
+      "category": "ETICA, AUTORITÀ E VULNERABILITÀ",
+      "subcategory": "Legame emotivo e salute mentale",
+      "description": "Sewell Setzer III. 2024 - Il tragico suicidio di un quattordicenne legato alla dipendenza emotiva da un chatbot di Character.AI, che ha portato a una riflessione sulla vulnerabilità emotiva e psicologica degli adolescenti nell'interazione con intelligenze artificiali."
+    },
+    {
+      "id": 85,
+      "src": "img/leoXIV.png",
+      "tags": [
+        "responsabilità", "autorità", "normatività"
+      ],
+      "date": "2025",
+      "category": "ETICA, AUTORITÀ E VULNERABILITÀ",
+      "subcategory": "Responsabilità umana",
+      "description": "Enciclica di papa Leone XIV. 2025 — Un documento papale che affronta le questioni etiche e morali legate all'uso dell'intelligenza artificiale, sottolineando la responsabilità umana nella gestione delle tecnologie avanzate e la necessità di linee guida etiche per il loro sviluppo e utilizzo."
+    }
+  ]
+}

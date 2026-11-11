@@ -1,0 +1,7 @@
+Avvio: apri questa cartella con Live Server oppure esegui python3 -m http.server 8000 e visita http://localhost:8000.
+Il JSON mantiene il tuo formato: items con id, src, tags, date, category, subcategory, description.
+Le immagini originali non erano allegate: aggiungi le cartelle img e foto con i file indicati in src.
+Il data.json allegato era troncato: sono stati recuperati i primi 7 elementi completi. L'ottavo non è stato ricostruito.
+Le date mancanti restano non indicate e la timeline usa una spaziatura uniforme. Compila date per usare la scala proporzionale.
+Le etichette brevi derivano dalla prima frase di description. Titolo e sottotitolo del sito si cambiano nella costante config in app.js.
+Il blocco JSON in index.html è una copia per la prova con doppio clic: con un server il sito legge sempre data.json, che è l'unico file da aggiornare.

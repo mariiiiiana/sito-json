@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>God in the Machine</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <a class="brand" href="#/"><span id="t1">God in the Machine</span><br><small id="t2">sottotitolo</small></a>
+  <nav><a href="#/esplora" data-p="esplora">esplora</a><a href="#/timeline" data-p="timeline">timeline</a></nav>
+</header>
+
+<main id="landing" class="page"><div id="flow"></div></main>
+<button class="fab" id="up" title="Torna su" aria-label="Torna su">↑</button>
+<button class="fab" id="again" title="Rimescola" aria-label="Rimescola">↻</button>
+
+<main id="esplora" class="page"><div id="tags"></div><div id="stage"><svg id="edges"></svg></div></main>
+
+<main id="timeline" class="page">
+  <div id="hud"></div>
+  <div id="cats"></div>
+  <div id="tip"></div>
+  <div id="mini"></div>
+  <button class="chip" id="mode"></button>
+  <div id="scroller"><div id="track"><svg id="arcs"></svg></div></div>
+</main>
+
+<aside id="panel" aria-live="polite"></aside>
+
+<!-- Dati esterni: data.json accanto a index.html, servito con un server locale.
+     Il blocco sottostante usa lo stesso formato e permette una prova senza server.
+     Campi: id numerico, src, tags, date, category, subcategory, description. -->
+<script id="data" type="application/json">
+</script>
+
+<script src="app.js"></script>
+</body>
+</html>

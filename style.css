@@ -1,0 +1,275 @@
+:root{--bg:#fff;--ink:#111;--mute:#777;--line:#d9d9d9;--hl:#f2e600;--h:50px}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;background:var(--bg);color:var(--ink);font:15px/1.45 "Helvetica Neue",Helvetica,Arial,sans-serif}
+a{color:inherit;text-decoration:none}
+:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+header{position:fixed;inset:0 0 auto 0;height:var(--h);display:flex;justify-content:space-between;align-items:center;padding:0 26px;background:var(--bg);z-index:30}
+.brand{font-size:12px;line-height:1.05}.brand small{color:var(--mute);font-size:11px}
+nav{display:flex;gap:22px;font-size:13px}
+nav a{padding:4px 0;border-bottom:2px solid transparent}
+nav a.on{border-color:var(--ink)}
+.page{position:absolute;inset:var(--h) 0 0 0;display:none;overflow:auto}
+.page.on{display:block}
+
+/* Landing: un manifesto / collage sovrapposto, ispirato al riferimento. */
+#landing{position:relative;inset:auto;overflow:visible;padding:calc(var(--h) + 14px) 3.4vw 100px}
+#flow{position:relative;width:100%;height:auto;aspect-ratio:1300/1900;container-type:inline-size;isolation:isolate}
+.collage-figure{position:absolute;margin:0;z-index:2;cursor:pointer;min-width:0}
+.collage-figure img{display:block;width:100%;aspect-ratio:var(--ratio);object-fit:cover;background:#eee;outline:2px solid transparent;transition:outline-color .2s,filter .2s}
+.collage-figure:hover img,.collage-figure:focus-visible img{outline-color:var(--hl);filter:contrast(1.12)}
+.collage-figure figcaption{font-size:clamp(10px,1.76cqw,25px);line-height:1.02;letter-spacing:-.035em;white-space:normal;margin-top:5px;overflow-wrap:anywhere}
+.collage-word{max-width:calc(100% - 4%);position:absolute;margin:0;z-index:3;pointer-events:none;font-family:Arial,Helvetica,sans-serif;font-weight:800;line-height:.73;letter-spacing:-.075em;white-space:nowrap;color:#050505}
+#lines{position:absolute;inset:0;width:100%;height:100%;overflow:visible;pointer-events:none;z-index:4}
+.landing-edge{stroke:#050505;stroke-width:2.25;vector-effect:non-scaling-stroke}
+.landing-dot{fill:#050505}
+#over{position:fixed;inset:0;overflow:hidden;pointer-events:none;z-index:5}
+#over img{position:absolute;left:0;top:0;height:auto;will-change:transform}
+.fab{position:fixed;left:22px;display:none;border:0;background:none;font-size:34px;line-height:1;cursor:pointer;z-index:7;color:var(--ink)}
+body.landing .fab{display:block}
+#up{bottom:22px}
+#again{bottom:64px}
+
+/* esplora */
+#esplora{overflow:hidden}
+#tags{position:absolute;left:32px;top:8px;right:32px;display:flex;flex-wrap:wrap;gap:6px;z-index:5}
+.chip{border:1px solid var(--ink);border-radius:99px;padding:2px 12px;background:var(--bg);cursor:pointer;font:inherit;font-size:13px;color:var(--ink)}
+.chip.on,.chip:hover{background:var(--hl)}
+#stage{position:absolute;inset:0}
+#edges{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+.n{position:absolute;transform:translate(-50%,-50%);cursor:pointer;border:0;padding:0;background:none;transition:opacity .3s,filter .3s}
+.n img{display:block;width:100%;height:100%;object-fit:cover}
+.n.dim{opacity:.14;filter:grayscale(1)}
+.n.sel{outline:3px solid var(--hl);outline-offset:3px;z-index:3}
+.n .cap{position:absolute;left:50%;top:100%;transform:translateX(-50%);margin-top:6px;font-size:12px;white-space:nowrap;background:var(--bg);padding:0 4px;opacity:0;transition:opacity .2s;pointer-events:none}
+.n:hover .cap,.n.sel .cap,.n.nb .cap{opacity:1}
+.edge{stroke:var(--ink);fill:none;opacity:.12}
+.edge.on{opacity:1;stroke:var(--ink)}
+
+/* Timeline: colonne di immagini sovrapposte, su fondo bianco. */
+#timeline{overflow:hidden;background:#fff;color:#111}
+#mini{position:absolute;left:32px;right:32px;bottom:8px;height:14px;border:1px solid #ddd;cursor:pointer;background:#fff;z-index:5}
+#mini i{position:absolute;top:0;bottom:0;width:1px;background:#111;opacity:.35;pointer-events:none}
+#mini b{position:absolute;top:0;bottom:0;background:#111;opacity:.16;pointer-events:none}
+#scroller{position:absolute;left:0;right:0;top:40px;bottom:32px;overflow-x:auto;overflow-y:hidden;overscroll-behavior-x:contain}
+#track{position:relative;height:100%;isolation:isolate}
+#arcs{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:1}
+.axis{position:absolute;left:0;right:0;height:4px;transform:translateY(-50%);background:radial-gradient(circle,#111 1.4px,transparent 1.7px) 3px center/9px 4px repeat-x}
+.dot{position:absolute;border-radius:50%;background:#111;transform:translate(-50%,-50%);pointer-events:none}
+.yr{position:absolute;transform:translateX(-50%);font-size:11px;color:#555;width:104px;text-align:center;line-height:1.2;font-variant-numeric:tabular-nums}
+.timeline-column{position:absolute;transform:translateX(-50%);z-index:2}
+.timeline-column:focus-within,.timeline-column:hover{z-index:4}
+.c{position:absolute;left:0;width:100%;cursor:pointer;border:0;background:transparent;padding:0;text-align:left;font:inherit;color:inherit;transition:opacity .2s}
+.c img{display:block;width:100%;height:100%;object-fit:contain;object-position:center top;background:#fff}
+.c span{position:absolute;left:calc(100% + 8px);top:0;width:170px;padding:7px 9px;background:#fff;box-shadow:0 2px 12px #0001;font-size:12px;line-height:1.3;opacity:0;pointer-events:none}
+.c em{font-style:normal;color:#777;font-size:11px}
+.c:hover,.c:focus-visible,.c.sel{z-index:20!important;opacity:1}
+.c:hover span,.c:focus-visible span{opacity:1}
+.c.dim{opacity:.2}
+.c.sel img{outline:2px solid var(--hl);outline-offset:2px}
+.arc{fill:none;stroke:#111;opacity:0}
+.arc.on{opacity:.3}
+@media(max-width:700px){#mini{left:16px;right:16px}.c span{width:140px}}
+
+/* pannello */
+#panel{position:fixed;top:var(--h);right:0;bottom:0;width:340px;max-width:100%;background:var(--bg);border-left:1px solid var(--ink);padding:20px;overflow:auto;transform:translateX(101%);transition:transform .3s;z-index:15}
+#panel.on{transform:none}
+#panel img.big{width:100%;max-height:220px;object-fit:cover;display:block;margin-bottom:12px}
+#panel h2{font-size:24px;font-weight:400;margin:0 0 2px;line-height:1.15}
+#panel .yr2{color:var(--mute);margin-bottom:10px}
+#panel h3{font-size:13px;font-weight:400;color:var(--mute);margin:20px 0 6px}
+#panel .chips{display:flex;flex-wrap:wrap;gap:6px}
+.x{position:absolute;right:14px;top:10px;border:0;background:none;font-size:24px;cursor:pointer}
+.rel{display:block;width:100%;text-align:left;border:0;border-top:1px solid var(--line);background:none;padding:8px 0;cursor:pointer;font:inherit;color:inherit}
+.rel small{display:block;color:var(--mute)}
+.rel:hover{background:linear-gradient(transparent 60%,var(--hl) 60%)}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+@media (max-width:700px){header{padding:0 16px}nav{gap:14px}#landing{padding:calc(var(--h) + 8px) 16px 80px}}
+
+@media (max-width:700px){
+  header{padding:0 16px}nav{gap:14px}
+  #landing{padding:calc(var(--h) + 10px) 12px 60px}
+  #flow{aspect-ratio:700/1750}
+  .collage-figure figcaption{font-size:clamp(9px,2.15cqw,16px)}
+  .collage-word{letter-spacing:-.09em;max-width:none}
+  .landing-edge{stroke-width:1.3}
+  .fab{left:10px;font-size:28px}
+}
+
+/* Titolo raccolto: mantiene entrambe le righe dentro il collage. */
+.collage-word:first-of-type{letter-spacing:-.075em}
+@media (max-width:700px){.collage-word:nth-of-type(2){top:25.5%!important}}
+
+
+/* Ritocchi editoriali: didascalie piccole, leggere, non invasive. */
+.collage-figure figcaption{
+  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size:clamp(9px,1.05cqw,15px);
+  font-weight:300;
+  line-height:1.16;
+  letter-spacing:-.015em;
+  margin-top:3px;
+}
+.collage-repeat{z-index:1}
+.collage-repeat figcaption{font-size:clamp(8px,.9cqw,13px);font-weight:300}
+/* Cassetto laterale ancorato a destra su Esplora e Timeline. */
+:root{--panel-w:340px}
+#panel{left:auto;right:0;width:var(--panel-w);max-width:100vw;z-index:35;
+  box-shadow:-9px 0 24px rgba(0,0,0,.055)}
+#esplora.with-panel #tags{right:calc(var(--panel-w) + 18px)}
+#timeline.with-panel #mini{right:calc(var(--panel-w) + 32px)}
+#timeline.with-panel #scroller{right:var(--panel-w)}
+@media(max-width:700px){
+  :root{--panel-w:min(88vw,340px)}
+  .collage-figure figcaption{font-size:clamp(9px,1.85cqw,13px);font-weight:300}
+  .collage-repeat figcaption{font-size:clamp(8px,1.65cqw,12px)}
+  #esplora.with-panel #tags{right:16px}
+  #timeline.with-panel #mini{right:16px}
+  #timeline.with-panel #scroller{right:0}
+}
+
+/* V4: pannelli dettagli a SINISTRA su Esplora e Timeline. */
+#panel{
+  left:0;
+  right:auto;
+  border-left:0;
+  border-right:1px solid var(--ink);
+  transform:translateX(-101%);
+  box-shadow:9px 0 24px rgba(0,0,0,.055);
+}
+#panel.on{transform:translateX(0)}
+#esplora.with-panel #tags{left:calc(var(--panel-w) + 18px);right:32px}
+#timeline.with-panel #mini{left:calc(var(--panel-w) + 32px);right:32px}
+#timeline.with-panel #scroller{left:var(--panel-w);right:0}
+/* Seconda apparizione del titolo nel collage, durante lo scroll. */
+.collage-word.is-reprise{z-index:3}
+@media(max-width:700px){
+  #esplora.with-panel #tags{left:16px;right:16px}
+  #timeline.with-panel #mini{left:16px;right:16px}
+  #timeline.with-panel #scroller{left:0;right:0}
+}
+/* Immagini senza sfondo e senza ritaglio */
+.collage-figure img {
+  background: transparent;
+  aspect-ratio: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+.n img,
+.c img,
+#panel img.big {
+  background: transparent;
+  object-fit: contain;
+}
+
+/* Elimina il bordo al passaggio del mouse */
+.collage-figure:hover img {
+  outline-color: transparent;
+}
+/* Nasconde le didascalie solo nella landing */
+#landing .collage-figure figcaption {
+  display: none;
+}
+/* Collegamenti piÃ¹ sottili e leggeri nella landing */
+.landing-edge {
+  stroke-width: 0.75;
+  stroke-opacity: 0.3;
+}
+
+.landing-dot {
+  fill-opacity: 0.3;
+}
+
+/* ===== Timeline isometrica (riferimento: pile di piani inclinati) ===== */
+#timeline{background:#ececec}
+#mini{background:#ececec;border-color:#cfcfcf}
+.axis{background:radial-gradient(circle,#111 1.2px,transparent 1.5px) 3px center/9px 4px repeat-x}
+.c{left:0;transform-origin:0 0;
+  transform:skewY(var(--sk,20deg)) scaleX(var(--sx,.72));
+  transition:transform .22s ease,opacity .2s;
+  filter:drop-shadow(-1px 0 0 rgba(0,0,0,.14))}
+.c img{object-fit:contain;object-position:center;background:transparent}
+.c:hover,.c:focus-visible,.c.sel{transform:translate(0,-9px) skewY(var(--sk,20deg)) scaleX(var(--sx,.72))}
+.c.sel img{outline:2px solid var(--hl);outline-offset:0}
+#hud{position:absolute;left:32px;top:8px;z-index:5;font:12px/1.35 "Helvetica Neue",Helvetica,Arial,sans-serif;font-variant-numeric:tabular-nums;pointer-events:none}
+#timeline.with-panel #hud{left:calc(var(--panel-w) + 32px)}
+#tip{position:fixed;display:none;width:170px;padding:7px 9px;background:#fff;box-shadow:0 2px 12px #0002;font-size:12px;line-height:1.3;pointer-events:none;z-index:40}
+#tip em{font-style:normal;color:#777;font-size:11px}
+#cats{position:absolute;right:32px;bottom:60px;z-index:6;display:flex;flex-direction:column;align-items:flex-end;gap:3px;max-width:240px;text-align:right}
+#cats button{border:0;background:none;padding:0;cursor:pointer;font:inherit;font-size:12px;line-height:1.25;text-transform:lowercase;color:#b4b4b4;text-align:right}
+#cats button sup{font-size:8px;margin-left:2px}
+#cats button:hover{color:#555}
+#cats button.on{color:#111;font-weight:600}
+@media(max-width:700px){#hud{left:16px}#timeline.with-panel #hud{left:16px}#cats{display:none}}
+
+
+/* ===== Nastro isometrico: posizioni gestite da JS tramite --x / --y ===== */
+#scroller{scrollbar-width:none}
+#scroller::-webkit-scrollbar{display:none}
+#vp{position:sticky;left:0;top:0;height:100%;overflow:hidden}
+.c{left:0;top:0;transform-origin:0 0;
+  transform:translate3d(var(--x,0px),var(--y,0px),0) skewY(var(--sk,20deg)) scaleX(var(--sx,.72));
+  transition:translate .22s ease,opacity .2s;will-change:transform}
+.c:hover,.c:focus-visible,.c.sel{
+  transform:translate3d(var(--x,0px),var(--y,0px),0) skewY(var(--sk,20deg)) scaleX(var(--sx,.72));
+  translate:0 -9px;z-index:500!important}
+
+
+/* ===== Sfondo bianco + scala delle date ===== */
+#timeline{background:#fff}
+#mini{background:#fff;border-color:#ddd}
+#ruler{position:absolute;left:0;right:0;bottom:4px;height:36px;pointer-events:none;z-index:600}
+#rline{position:absolute;left:0;right:0;top:7px;height:4px;opacity:.55;
+  background:radial-gradient(circle,#111 1.1px,transparent 1.4px) 3px center/9px 4px repeat-x}
+#rstrip{position:absolute;left:50%;top:0;height:100%}
+#rstrip .t{position:absolute;top:3px;width:1px;height:12px;background:#111;opacity:.35}
+#rstrip .l{position:absolute;top:19px;font-size:11px;line-height:1;color:#9a9a9a;white-space:nowrap;
+  font-variant-numeric:tabular-nums;text-shadow:0 0 3px #fff,0 0 3px #fff,0 0 3px #fff;transform:translateX(-3px)}
+#rstrip .l.on{color:#111}
+#rmark{position:absolute;left:50%;top:-3px;width:0;height:0;transform:translateX(-50%);
+  border-left:5px solid transparent;border-right:5px solid transparent;border-top:8px solid #111}
+#cats{bottom:88px}
+
+
+/* ===== Selezione: piano isolato al centro + informazioni sotto ===== */
+.c,.c:hover,.c:focus-visible,.c.sel{
+  transform:translate3d(var(--x,0px),var(--y,0px),0) skewY(var(--sk,20deg)) scaleX(var(--sx,.72)) scale(var(--z,1))}
+.c.sel,.c.sel:hover{translate:none}
+.c.sel img{outline:none}
+#info{position:absolute;left:50%;transform:translateX(-50%);width:min(560px,calc(100% - 48px));
+  text-align:center;overflow:auto;z-index:700;opacity:0;pointer-events:none;transition:opacity .15s}
+#info.on{opacity:1;pointer-events:auto;transition:opacity .45s .5s}
+#info h2{font-size:22px;font-weight:400;line-height:1.15;margin:0 0 3px}
+#info .idate{color:var(--mute);margin-bottom:8px}
+#info p{margin:0 0 12px;font-size:14px;line-height:1.4}
+#info .chips{display:flex;flex-wrap:wrap;gap:6px;justify-content:center}
+#info .ix{position:absolute;right:0;top:-2px;border:0;background:none;font-size:24px;line-height:1;cursor:pointer;color:var(--ink)}
+
+/* ===== Esplora alleggerita ===== */
+.n{transition:opacity .3s,filter .3s,width .3s,height .3s}
+.edge{opacity:0;transition:opacity .3s}
+.edge.base{opacity:.16}
+.edge.on{opacity:.85}
+#edges.focus .edge:not(.on){opacity:0}
+
+
+/* ===== Esplora: animazioni leggere (solo transform/opacity) ===== */
+.n{left:0;top:0;will-change:transform;transition:opacity .3s}
+.n.dim{filter:none}
+
+
+/* ===== Esplora: mappa trascinabile ===== */
+#stage{cursor:grab;touch-action:none;user-select:none;-webkit-user-select:none;overflow:hidden}
+#stage.grabbing,#stage.grabbing .n{cursor:grabbing}
+#world{position:absolute;left:0;top:0;will-change:transform}
+
+
+/* Immagini nitide quando ingrandite; didascalia sempre a dimensione normale. */
+.n{will-change:auto}
+.n .cap{transform:translateX(-50%) scale(var(--ik,1));transform-origin:50% 0}
+.n.sel{z-index:3}
+
+
+/* Niente riquadro giallo sull'immagine selezionata; will-change solo durante l'animazione. */
+.n.sel{outline:none}
+#stage.anim .n{will-change:transform}
