@@ -64,13 +64,11 @@ function openPanel(id,go){
     <h2>${esc(titleOf(it))}</h2><div class="yr2">${esc(dateOf(it))}</div>
     <p>${esc([it.category,it.subcategory].filter(Boolean).join(" · "))}</p>
     <p>${esc(it.description)}</p>
-    <h3>Tag</h3><div class="chips">${it.tags.map(t=>`<button class="chip" data-t="${esc(t)}">${esc(t)}</button>`).join('')}</div>
-    <h3>Connessioni</h3>${neighbors(id).map(n=>`<button class="rel" data-id="${n.it.id}">${esc(titleOf(n.it))}<small>${[...(n.link?['collegamento diretto']:[]),...n.shared].map(esc).join(', ')}</small></button>`).join('')||'<small>Nessuna connessione.</small>'}`;
+    <h3>Tag</h3><div class="chips">${it.tags.map(t=>`<button class="chip" data-t="${esc(t)}">${esc(t)}</button>`).join('')}</div>`;
   p.classList.add('on');
   $('#esplora').classList.toggle('with-panel',location.hash.startsWith('#/esplora'));
   $('#timeline').classList.toggle('with-panel',location.hash.startsWith('#/timeline'));
   $('.x',p).onclick=()=>{closePanel();go(null)};
-  $$('.rel',p).forEach(b=>b.onclick=()=>go(b.dataset.id));
   $$('.chip',p).forEach(b=>b.onclick=()=>{location.hash='#/esplora';setTimeout(()=>setTag(b.dataset.t),30)});
 }
 function closePanel(){
@@ -308,7 +306,7 @@ $('#up').onclick=()=>scrollTo({top:0,behavior:'smooth'});
 $('#again').onclick=()=>{seed++;const n=seed%positions.length;const moved=positions.splice(0,n);positions.push(...moved);buildLanding();};
 
 /* ---------- esplora ---------- */
-const X={nodes:[],focus:null,tag:null,ready:false,raf:0,px:0,py:0,W:0,H:0,WW:0,HH:0,drag:null,moved:false};
+const X={nodes:[],focus:null,tags:new Set(),ready:false,raf:0,px:0,py:0,W:0,H:0,WW:0,HH:0,drag:null,moved:false};
 // Rete alleggerita: ogni elemento mantiene visibili solo i suoi KEEP collegamenti più forti.
 // In focus si mostrano al massimo RING connessioni (le più forti); l'elenco completo resta nel pannello.
 const KEEP=2,RING=10;
@@ -317,6 +315,14 @@ function pruneEdges(){
   edges.forEach(e=>{[e.a,e.b].forEach(id=>(best[id]=best[id]||[]).push(e))});
   const keep=new Set();
   for(const id in best)best[id].sort((x,y)=>y.w-x.w).slice(0,KEEP).forEach(e=>keep.add(e));
+
+  // Unisce le componenti isolate: per ognuna aggiunge il collegamento più forte verso l'esterno
+  const parent={};const find=x=>parent[x]===x?x:(parent[x]=find(parent[x]));
+  items.forEach(i=>parent[i.id]=i.id);
+  keep.forEach(e=>parent[find(e.a)]=find(e.b));
+  [...edges].sort((x,y)=>y.w-x.w).forEach(e=>{
+    if(find(e.a)!==find(e.b)){keep.add(e);parent[find(e.a)]=find(e.b)}
+  });
   return keep;
 }
 function initExplore(){
@@ -327,7 +333,7 @@ function initExplore(){
   wd.style.width=WW+'px';wd.style.height=HH+'px';
   Object.assign(X,{world:wd,W,H,WW,HH});
   $('#tags').innerHTML='';
-  allTags.forEach(t=>{const c=el('button','chip',esc(t));c.dataset.t=t;c.onclick=()=>setTag(X.tag===t?null:t);$('#tags').append(c)});
+  allTags.forEach(t=>{const c=el('button','chip',esc(t));c.dataset.t=t;c.onclick=()=>toggleTag(t);$('#tags').append(c)});
   $$('.n',st).forEach(n=>n.remove());
   const deg={};edges.forEach(e=>{deg[e.a]=(deg[e.a]||0)+e.w;deg[e.b]=(deg[e.b]||0)+e.w});
   const keep=pruneEdges(),pe=edges.filter(e=>keep.has(e));
@@ -335,7 +341,7 @@ function initExplore(){
   const maxDeg=Math.max(1,...Object.values(deg));
   X.nodes=items.map((it,i)=>{
     const s=Math.round(base*(.85+.35*(deg[it.id]||0)/maxDeg));
-    const b=el('button','n');b.innerHTML=`<img src="${esc(imgOf(it))}" alt="" draggable="false"><span class="cap">${esc(titleOf(it))}</span>`;
+    const b=el('button','n');b.innerHTML=`<img src="${esc(imgOf(it))}" alt="" draggable="false">`;
     b.style.width=s+'px';b.style.height=s*.75+'px';b.setAttribute('aria-label',titleOf(it));
     b.onclick=ev=>{ev.stopPropagation();location.hash='#/esplora/'+it.id};
     wd.append(b);
@@ -359,7 +365,7 @@ function initExplore(){
     N.forEach(n=>{
       n.vx+=(WW/2-n.x)*.003;n.vy+=(HH/2-n.y)*.003;
       n.x=Math.max(n.s/2+24,Math.min(WW-n.s/2-24,n.x+n.vx*.5));
-      n.y=Math.max(70+n.s*.375,Math.min(HH-n.s*.375-34,n.y+n.vy*.5));
+      n.y=Math.max(24+n.s*.375,Math.min(HH-n.s*.375-34,n.y+n.vy*.5));
       n.vx*=.6;n.vy*=.6;
     });
   }
@@ -382,16 +388,16 @@ function layoutFocus(){
     nb.forEach((m,i)=>{const n=X.idx[m.it.id],a=i/nb.length*Math.PI*2-Math.PI/2;n.tx=c.tx+Math.cos(a)*R;n.ty=c.ty+Math.sin(a)*R;n.k=1.25});
   }
   N.forEach(n=>{
-    const on=!f&&!X.tag||(f&&(n.id===f||nbIds.has(n.id)))||(X.tag&&!f&&byId[n.id].tags.includes(X.tag));
+    const on=!f&&!X.tags.size||(f&&(n.id===f||nbIds.has(n.id)))||(X.tags.size&&!f&&hasAll(byId[n.id]));
     n.el.classList.toggle('dim',!on);n.el.classList.toggle('sel',n.id===f);n.el.classList.toggle('nb',nbIds.has(n.id));
   });
   X.base.forEach(o=>{
     const {a,b}=o.e;
-    o.l.classList.toggle('on',!f&&!!X.tag&&byId[a].tags.includes(X.tag)&&byId[b].tags.includes(X.tag));
+    o.l.classList.toggle('on',!f&&X.tags.size>0&&hasAll(byId[a])&&hasAll(byId[b]));
   });
   X.pool.forEach((o,i)=>{const m=nb[i];if(m){o.a=f;o.b=m.it.id;o.l.style.display=''}else{o.a=o.b=null;o.l.style.display='none'}});
-  $('#edges').classList.toggle('focus',!!(f||X.tag));
-  $$('#tags .chip').forEach(c=>c.classList.toggle('on',c.dataset.t===X.tag));
+  $('#edges').classList.toggle('focus',!!(f||X.tags.size));
+  $$('#tags .chip').forEach(c=>c.classList.toggle('on',X.tags.has(c.dataset.t)));
   loop();
 }
 // Il ciclo di animazione parte solo quando qualcosa si muove e si ferma appena tutto è a riposo.
@@ -420,9 +426,12 @@ function loop(){
   };
   step();
 }
-function setTag(t){X.tag=t;X.focus=null;closePanel();if(X.ready)layoutFocus()}
+// Selezione multipla: un elemento è evidenziato solo se ha TUTTI i tag selezionati.
+const hasAll=it=>[...X.tags].every(t=>it.tags.includes(t));
+function toggleTag(t){X.tags.has(t)?X.tags.delete(t):X.tags.add(t);X.focus=null;closePanel();if(X.ready)layoutFocus()}
+function setTag(t){X.tags=new Set(t?[t]:[]);X.focus=null;closePanel();if(X.ready)layoutFocus()}
 function setFocus(id){
-  X.focus=id||null;if(id)X.tag=null;
+  X.focus=id||null;if(id)X.tags.clear();
   if(X.ready)layoutFocus();
   id?openPanel(id,g=>location.hash=g?'#/esplora/'+g:'#/esplora'):closePanel();
 }

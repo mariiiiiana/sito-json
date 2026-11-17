@@ -783,7 +783,7 @@
     },
     {
       "id": 69,
-      "src": "img/replika.png",
+      "src": "img/replika4.png",
       "tags": [
         "dialogo", "confidenza", "presenza", "compagnia", "ascolto", "avatar"
       ],
@@ -834,7 +834,7 @@
       "date": "2022",
       "category": "DIALOGO E RELAZIONE CON L'INTELLIGENZA ARTIFICIALE",
       "subcategory": "Conversazione generalista",
-      "description": "ChatGPT. 2019 — Un'interfaccia di chat basata sull'intelligenza artificiale che permette agli utenti di dialogare con un modello linguistico avanzato, ottenendo risposte informative e creatività."
+      "description": "ChatGPT. 2022 — Un'interfaccia di chat basata sull'intelligenza artificiale che permette agli utenti di dialogare con un modello linguistico avanzato, ottenendo risposte informative e creatività."
     },
     {
       "id": 74,
@@ -967,6 +967,160 @@
       "category": "ETICA, AUTORITÀ E VULNERABILITÀ",
       "subcategory": "Responsabilità umana",
       "description": "Enciclica di papa Leone XIV. 2025 — Un documento papale che affronta le questioni etiche e morali legate all'uso dell'intelligenza artificiale, sottolineando la responsabilità umana nella gestione delle tecnologie avanzate e la necessità di linee guida etiche per il loro sviluppo e utilizzo."
+    },
+    {
+      "id": 86,
+      "src": "img/enumaAnuEnlil.png",
+      "tags": ["divinazione", "interpretazione", "codificazione", "materialità"],
+      "date": "XII–XI secolo a.C. circa",
+      "category": "DIVINAZIONE",
+      "subcategory": "Lettura dei segni",
+      "description": "Enuma Anu Enlil. XII–XI secolo a.C. circa — Mesopotamia: serie di presagi astrali raccolti in tavolette cuneiformi, con materiali più antichi di età paleo-babilonese. Un vasto archivio di segni celesti da interpretare in modo sistematico."
+    },
+    {
+      "id": 87,
+      "src": "img/enumaAnuEnlil2.png",
+      "tags": ["divinazione", "interpretazione", "codificazione", "materialità"],
+      "date": "XII–XI secolo a.C. circa",
+      "category": "DIVINAZIONE",
+      "subcategory": "Lettura dei segni",
+      "description": "Enuma Anu Enlil. XII–XI secolo a.C. circa — Mesopotamia: serie di presagi astrali raccolti in tavolette cuneiformi, con materiali più antichi di età paleo-babilonese. Un vasto archivio di segni celesti da interpretare in modo sistematico."
+    },
+      
+    {
+      "id": 88,
+      "src": "img/mudang.png",
+      "tags": ["mediazione", "rituale", "presenza", "trascendenza"],
+      "date": "3000 a.C. - il 2000 a.C",
+      "category": "DIVINAZIONE",
+      "subcategory": "Mediazione oracolare",
+      "description": "Tradizione mudang. Corea — Sciamane che fanno da medium tra il mondo umano e gli spiriti attraverso riti (gut) di possessione, invocazione e divinazione. A differenza dei sistemi basati su oggetti, la mediazione passa dal corpo della sciamana."
+    },
+    {
+      "id": 89,
+      "src": "img/zairja.png",
+      "tags": ["combinatoria", "codificazione", "interpretazione", "divinazione"],
+      "date": "1200 circa (origine); 1377 (descrizione)",
+      "category": "DIVINAZIONE",
+      "subcategory": "Sistemi combinatori",
+      "description": "Zairja. 1200 circa; 1377 — Mondo arabo-maghrebino: dispositivo divinatorio attribuito ad al-Sabti e descritto da Ibn Khaldun nella Muqaddima (1377). Mediante cerchi concentrici di lettere e regole di calcolo, genera risposte a partire dalla domanda posta. Presenta analogie con l’Ars brevis di Lullo (1308)."
+    },
+    {
+      "id": 90,
+      "src": "img/aljazari.png",
+      "tags": ["automazione", "materialità", "presenza"],
+      "date": "1206",
+      "category": "SACRO E PRESENZA ARTIFICIALE",
+      "subcategory": "Automi di corte",
+      "description": "Ismail al-Jazari. 1206 — Il Libro della conoscenza dei dispositivi meccanici ingegnosi descrive automi idraulici e orologi, tra cui l’orologio dell’elefante. Non hanno funzione religiosa, ma si inseriscono nella linea degli automi che parte da Erone e passa per il mondo islamico."
+    },
+    {
+      "id": 91,
+      "src": "img/caniSony.png",
+      "tags": ["rituale", "presenza", "automo", "mediazione"],
+      "date": "2015",
+      "category": "SACRO E PRESENZA ARTIFICIALE",
+      "subcategory": "Rituali per le macchine",
+      "description": "Funerale per i cani robot AIBO. 2015 — Giappone, Isumi (Chiba): un tempio buddista celebra i funerali dei cani robot Sony AIBO fuori produzione. In collaborazione con A-FUN, i robot dismessi servono a riparare altri AIBO e vengono trattati come una donazione di organi."
+    },
+    {
+      "id": 92,
+      "src": "img/ruriden.png",
+      "tags": ["automazione", "rituale", "presenza"],
+      "date": "2016",
+      "category": "SACRO E PRESENZA ARTIFICIALE",
+      "subcategory": "Rituali per le macchine",
+      "description": "Ruriden. 2016 — Giappone: colombario buddista automatizzato in cui le urne vengono richiamate e presentate ai familiari tramite un lettore di card."
+    },
+    {
+      "id": 93,
+      "src": "img/ruriden2.png",
+      "tags": ["automazione", "rituale", "presenza"],
+      "date": "2016",
+      "category": "SACRO E PRESENZA ARTIFICIALE",
+      "subcategory": "Rituali per le macchine",
+      "description": "Ruriden. 2016 — Giappone: colombario buddista automatizzato in cui le urne vengono richiamate e presentate ai familiari tramite un lettore di card."
+    },
+    {
+      "id": 94,
+      "src": "img/kerala.png",
+      "tags": ["automazione", "rituale", "presenza", "automo"],
+      "date": "2023",
+      "category": "SACRO E PRESENZA ARTIFICIALE",
+      "subcategory": "Automi rituali",
+      "description": "Elefante meccanico del Kerala. 2023 — India: un elefante meccanico a grandezza naturale (Irinjadappilly Raman) viene usato nelle cerimonie di un tempio del Kerala al posto di un elefante vivo. È un automa, non un sistema di AI, e si affianca all’elefante di al-Jazari come caso di automa zoomorfo in contesti diversi."
+    },
+    {
+      "id": 95,
+      "src": "img/kerala2.png",
+      "tags": ["automazione", "rituale", "presenza", "automo"],
+      "date": "2023",
+      "category": "SACRO E PRESENZA ARTIFICIALE",
+      "subcategory": "Automi rituali",
+      "description": "Elefante meccanico del Kerala. 2023 — India: un elefante meccanico a grandezza naturale (Irinjadappilly Raman) viene usato nelle cerimonie di un tempio del Kerala al posto di un elefante vivo. È un automa, non un sistema di AI, e si affianca all’elefante di al-Jazari come caso di automa zoomorfo in contesti diversi."
+    },
+    {
+      "id": 96,
+      "src": "img/kerala3.png",
+      "tags": ["automazione", "rituale", "presenza", "automo"],
+      "date": "2023",
+      "category": "SACRO E PRESENZA ARTIFICIALE",
+      "subcategory": "Automi rituali",
+      "description": "Elefante meccanico del Kerala. 2023 — India: un elefante meccanico a grandezza naturale (Irinjadappilly Raman) viene usato nelle cerimonie di un tempio del Kerala al posto di un elefante vivo. È un automa, non un sistema di AI, e si affianca all’elefante di al-Jazari come caso di automa zoomorfo in contesti diversi."
+    },
+    {
+      "id": 97,
+      "src": "img/gitaGPT.png",
+      "tags": ["dialogo", "simulazione", "presenza", "interpretazione"],
+      "date": "2023",
+      "category": "DIALOGO E RELAZIONE CON L'INTELLIGENZA ARTIFICIALE",
+      "subcategory": "Simulazione di figure sacre",
+      "description": "GitaGPT. 2023 — India: chatbot basato su AI che risponde alle domande degli utenti a partire dalla Bhagavad Gita, con una voce che simula Krishna."
+    },
+    {
+      "id": 98,
+      "src": "img/aiMazu.png",
+      "tags": ["dialogo", "simulazione", "presenza", "avatar"],
+      "date": "2025, aprile",
+      "category": "DIALOGO E RELAZIONE CON L'INTELLIGENZA ARTIFICIALE",
+      "subcategory": "Simulazione di figure sacre",
+      "description": "AI Mazu. Aprile 2025 — Malesia: versione basata su intelligenza artificiale della dea Mazu."
+    },
+     {
+      "id": 99,
+      "src": "img/manara3.png",
+      "tags": ["dialogo", "presenza", "mediazione", "automo"],
+      "date": "2025",
+      "category": "SACRO E PRESENZA ARTIFICIALE",
+      "subcategory": "Robot religiosi",
+      "description": "Manara. 2025 — Arabia Saudita: robot per l’assistenza e la guida dei fedeli presso la Grande Moschea della Mecca."
+    },
+    { 
+      "id": 100,
+      "src": "img/vinaida.png",
+      "tags": ["divinazione", "mediazione", "simulazione", "interpretazione"],
+      "date": "2026",
+      "category": "DIVINAZIONE",
+      "subcategory": "Oracoli digitali",
+      "description": "Vinaida. Seul, Ikseon-dong — Spazio culturale interattivo che unisce le tradizioni divinatorie coreane delle mudang alla tecnologia dell’intelligenza artificiale. Il nome richiama la formula di invocazione degli spiriti nei riti sciamanici."
+    },
+    {
+      "id": 101,
+      "src": "img/vinaida2.png",
+      "tags": ["divinazione", "mediazione", "simulazione", "interpretazione"],
+      "date": "2026",
+      "category": "DIVINAZIONE",
+      "subcategory": "Oracoli digitali",
+      "description": "Vinaida. Seul, Ikseon-dong — Spazio culturale interattivo che unisce le tradizioni divinatorie coreane delle mudang alla tecnologia dell’intelligenza artificiale. Il nome richiama la formula di invocazione degli spiriti nei riti sciamanici."
+    },
+    {
+      "id": 102,
+      "src": "img/ifaApp.png",
+      "tags": ["divinazione", "mediazione", "simulazione", "interpretazione"],
+      "date": "2019",
+      "category": "DIVINAZIONE",
+      "subcategory": "Oracoli digitali",
+      "description": "Ifá App. 2019 — Applicazione mobile progettata per lo studio e la consultazione della religione afro-cubana (Ifá / Lucumí), che include contenuti come i 256 oddun, cerimonie, divinazione e i fondamenti di Ozain"
     }
   ]
 }

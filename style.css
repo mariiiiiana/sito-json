@@ -273,3 +273,25 @@ body.landing .fab{display:block}
 /* Niente riquadro giallo sull'immagine selezionata; will-change solo durante l'animazione. */
 .n.sel{outline:none}
 #stage.anim .n{will-change:transform}
+
+/* ===== Esplora: tag in una colonna dedicata (a destra), fuori dalla mappa; titoli solo nel pannello ===== */
+#esplora.on{display:flex;flex-direction:row;overflow:hidden}
+#esplora #stage{position:relative;inset:auto;flex:1 1 auto;min-width:0;min-height:0}
+#esplora #tags,
+#esplora.with-panel #tags{
+  position:static;flex:0 0 220px;width:220px;
+  display:flex;flex-wrap:wrap;align-content:flex-start;gap:6px;
+  padding:12px 16px 16px;overflow-y:auto;
+  background:var(--bg);border-left:1px solid var(--line);z-index:5}
+.n .cap{display:none}
+@media(max-width:700px){
+  #esplora.on{flex-direction:column}
+  #esplora #tags,#esplora.with-panel #tags{
+    order:2;flex:0 0 auto;width:auto;max-height:96px;
+    padding:8px 12px;border-left:0;border-top:1px solid var(--line)}
+}
+
+
+/* Pannello: contenuti abbassati così non coprono il pulsante di chiusura. */
+#panel{padding-top:52px}
+.x{z-index:2;top:8px;line-height:1;width:34px;height:34px}
